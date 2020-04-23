@@ -16,9 +16,9 @@ function App() {
         <StoreProvider>
           <NavBar />
           <Switch>
-            <Route exact path='/' component={Home} />
-            <Route exact path='/contact' component={Contact} />
-            <Route exact path='/portfolio' component={Portfolio} />
+            <Route exact path='/portfolio' component={Home} />
+            <Route exact path='/portfolio/contact' component={Contact} />
+            <Route exact path='/portfolio/portfolio' component={Portfolio} />
           </Switch>
           <Footer />
         </StoreProvider>
