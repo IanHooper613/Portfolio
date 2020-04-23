@@ -3,16 +3,24 @@
     "id": "1",
     "name": "Password Generator",
     "thumbnail": "https://raw.githubusercontent.com/cbrittingham14/passwordGenerator/master/images/screenshot3.png",
-    "description": "",
+    "description": "This app allows users to generate a random password based on the number and type of characters he or she would like to use.  This was one of my earlier projects but I found it enjoyable and I am proud of the reuslt given my skill level at the time.",
     "repository": "https://github.com/cbrittingham14/passwordGenerator",
     "deployed": "https://cbrittingham14.github.io/passwordGenerator/"
   },
   {
     "id": "2",
-    "name": "",
-    "thumbnail": "",
-    "description": "",
-    "repository": "",
-    "deployed": ""
+    "name": "Budget Tracker",
+    "thumbnail": "https://raw.githubusercontent.com/cbrittingham14/budget-tracker/master/public/assets/screenshot1.png",
+    "description": "The budget tracker app allows users to keep track of their funds via deposits and withdrawals from a database.  The app will store all previous information in the database so a user can return to the page and use their existing budget information.",
+    "repository": "https://github.com/cbrittingham14/budget-tracker",
+    "deployed": "https://radiant-spire-30505.herokuapp.com"
+  },
+  {
+    "id": "3",
+    "name": "Fitness Tracker",
+    "thumbnail": "https://raw.githubusercontent.com/cbrittingham14/fitness-tracker/master/assets/screenshot2.png",
+    "description": "Fitness Tracker allows users to record their workouts on a database.  The user can add excercises to an existing workout, or create a new workout.  He or she can also use a dahsboard which will display graphic details about the workouts they have been performing. Check it out for yourself.",
+    "repository": "https://github.com/cbrittingham14/fitness-tracker",
+    "deployed": "https://limitless-anchorage-55710.herokuapp.com/"
   }
 ]
