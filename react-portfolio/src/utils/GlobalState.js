@@ -1,11 +1,16 @@
 import React, { createContext, useReducer, useContext } from 'react';
+import projects from './projects.json';
 
 const StoreContext = createContext();
 const { Provider } = StoreContext;
 
 const reducer = (state, action) => {
   switch (action.type) {
-    //switch cases here
+    case 'getall':
+      return {
+        ...state,
+        projects
+      }
     default:
       return state
   }
@@ -13,7 +18,7 @@ const reducer = (state, action) => {
 
 const StoreProvider = ({ ...props }) => {
   const [state, dispatch] = useReducer(reducer, {
-    // default state here
+    projects: projects
   });
   return <Provider value={[state, dispatch]} {...props} />;
 };

@@ -7,18 +7,21 @@ import Home from './pages/Home';
 import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
 import Footer from './components/Footer';
+import { StoreProvider } from './utils/GlobalState';
 
 function App() {
   return (
     <Router>
       <div>
-        <NavBar />
-        <Switch>
-          <Route exact path='/' component={Home} />
-          <Route exact path='/contact' component={Contact} />
-          <Route exact path='/portfolio' component={Portfolio} />
-        </Switch>
-        <Footer />
+        <StoreProvider>
+          <NavBar />
+          <Switch>
+            <Route exact path='/' component={Home} />
+            <Route exact path='/contact' component={Contact} />
+            <Route exact path='/portfolio' component={Portfolio} />
+          </Switch>
+          <Footer />
+        </StoreProvider>
       </div>
     </Router>
   );
