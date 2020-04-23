@@ -13,9 +13,8 @@ function ProjectItem ({ project }) {
           <div className='card-body'>
             <h5 className='card-title'>{project.name}</h5>
             <p className='card-text'>{project.description}</p>
-            <a href={project.repository}>Github</a>
-            <br></br>
-            <a href={project.deployed}>Deployed App</a>
+            <small><a href={project.repository} className='left'>Github</a></small>
+            <small><a href={project.deployed} className='right'>Deployed App</a></small>
           </div>
         </div>
       </div>

@@ -22,5 +22,29 @@
     "description": "Fitness Tracker allows users to record their workouts on a database.  The user can add excercises to an existing workout, or create a new workout.  He or she can also use a dahsboard which will display graphic details about the workouts they have been performing. Check it out for yourself.",
     "repository": "https://github.com/cbrittingham14/fitness-tracker",
     "deployed": "https://limitless-anchorage-55710.herokuapp.com/"
+  },
+  {
+    "id": "4",
+    "name": "Code Quiz",
+    "thumbnail": "https://raw.githubusercontent.com/cbrittingham14/code-quiz/master/images/screenshot.png",
+    "description": "The code quiz is the result of a homework assignment from Bootcamp.  This app uses a timer in the background to record users scores on a preset quiz on coding based on how quickly and accurately he or she finishes the quiz. Users are able to view existing highscores but the results are only saved to local storage.",
+    "repository": "https://github.com/cbrittingham14/code-quiz",
+    "deployed": "https://cbrittingham14.github.io/code-quiz/" 
+  },
+  {
+    "id": "5",
+    "name": "Workday Scheduler",
+    "thumbnail": "https://raw.githubusercontent.com/cbrittingham14/day-planner/master/images/screenshot.png",
+    "description": "The Workday scheduler allows a user to block off hours of their day with tasks that they enter into the text field.  Past hours will show up grey, the current hour is red, and future hours are rendered green.  It provides an easy visual to stay on top of your busy work schedule.",
+    "repository": "https://github.com/cbrittingham14/day-planner",
+    "deployed": "https://cbrittingham14.github.io/day-planner/"
+  },
+  {
+    "id": "6",
+    "name": "Ultimate Cookbook",
+    "thumbnail": "https://raw.githubusercontent.com/cbrittingham14/homework2/master/assets/images/screenshot3.png",
+    "description": "Ultimate Cookbook is a group project I worked on in class.  It allows users (once authenticated using passport) to create and view recipes in a remote database.  It is a work in progress but has potential.",
+    "repository": "https://github.com/Fomiller/Ultimate-Cookbook",
+    "deployed": "https://blooming-stream-62429.herokuapp.com"
   }
 ]

@@ -1,8 +1,16 @@
 .card {
-  max-height: 200px;
+  max-height: 220px;
   width: auto;
 }
 .card-img{
-  max-height: 200px;
+  max-height: 190px;
   width: auto;
+}
+.left{
+  text-align: left;
+  margin-right: 10px;
+}
+.right{
+  text-align: right;
+  margin-left: 10px;
 }
