@@ -11,7 +11,7 @@ import { StoreProvider } from './utils/GlobalState';
 
 function App() {
   return (
-    <Router basename=''>
+    <Router basename='/portfolio'>
       <div>
         <StoreProvider>
           <NavBar />
