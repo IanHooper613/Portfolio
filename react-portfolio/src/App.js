@@ -1,6 +1,6 @@
 import React from 'react';
 // import logo from './logo.svg';
-import { HashRouter as Router, Route, Switch } from 'react-router-dom';
+import { Router as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
 import NavBar from './components/NavBar';
 import Home from './pages/Home';
@@ -11,7 +11,7 @@ import { StoreProvider } from './utils/GlobalState';
 
 function App() {
   return (
-    <Router basename='/portfolio'>
+    <Router basename='/'>
       <div>
         <StoreProvider>
           <NavBar />
