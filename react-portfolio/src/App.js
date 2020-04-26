@@ -8,17 +8,19 @@ import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
 import Footer from './components/Footer';
 import { StoreProvider } from './utils/GlobalState';
+const URL = process.env.BASE_URL; //for use on gh pages
 
 function App() {
+  console.log('URL ', process.env);
   return (
     <Router>
       <div>
         <StoreProvider>
           <NavBar />
           <Switch>
-            <Route exact path='/' component={Home} />
-            <Route exact path='/contact' component={Contact} />
-            <Route exact path='/portfolio/' component={Portfolio} />
+            <Route exact path={URL + '/'} component={Home} />
+            <Route exact path={URL + '/contact'} component={Contact} />
+            <Route exact path={URL + '/portfolio/'} component={Portfolio} />
           </Switch>
           <Footer />
         </StoreProvider>
