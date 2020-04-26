@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+const URL = process.env.PUBLIC_URL;
 
 function NavBar () {
     return(
@@ -12,13 +13,13 @@ function NavBar () {
             <ul className="navbar-nav">
               <li className="nav-item">
                 
-                <Link className="nav-link" to="/">Home <span className="sr-only">(current)</span></Link>
+                <Link className="nav-link" to={URL + "/"}>Home <span className="sr-only">(current)</span></Link>
               </li>
               <li className="nav-item">
-                  <Link className="nav-link" to="/portfolio">Portfolio</Link>
+                  <Link className="nav-link" to={URL + "/portfolio"}>Portfolio</Link>
                 </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/contact">Contact</Link>
+                <Link className="nav-link" to={URL + "/contact"}>Contact</Link>
               </li>
             </ul>
           </div>
