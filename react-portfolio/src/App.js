@@ -18,9 +18,9 @@ function App() {
         <StoreProvider>
           <NavBar />
           <Switch>
-            <Route exact path={URL + '/portfolio'} component={Home} />
-            <Route exact path={URL + '/portfolio/contact'} component={Contact} />
-            <Route exact path={URL + '/portfolio/portfolio'} component={Portfolio} />
+            <Route exact path={URL + '/'} component={Home} />
+            <Route exact path={URL + '/contact'} component={Contact} />
+            <Route exact path={URL + '/portfolio'} component={Portfolio} />
           </Switch>
           <Footer />
         </StoreProvider>
