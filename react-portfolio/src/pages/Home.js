@@ -13,6 +13,7 @@ function Home (){
 							<img src='' alt='Me' />
 						</div>
 						<div className='col-sm'>
+							<p>Testerooski</p>
 								<p>
 										'I am just a traveler searching for purity.'  That is a quote from the man pictured on this page, Thomas Moore, in the movie the Saint.
 										This is one of Val Kilmer's best roles in my opinion.  Although I suspect this page is intended to be a platform to actually add my projects
