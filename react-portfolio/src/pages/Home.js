@@ -12,7 +12,7 @@ function Home (){
 				</div>
 				<div className='row'>
 						<div className='col-sm text-center'>
-							<img src={URL + 'assets/images/portrait.jpg'} className='self-portrait' alt='Me' />
+							<img src={URL + '/assets/images/portrait.jpg'} className='self-portrait' alt='Me' />
 						</div>
 						<div className='col-sm'>
 								<p>
