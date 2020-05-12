@@ -1,5 +1,4 @@
 import React from 'react';
-const URL = process.env.PUBLIC_URL;
 
 function Home (){
 
@@ -12,7 +11,7 @@ function Home (){
 				</div>
 				<div className='row'>
 						<div className='col-sm text-center'>
-							<img src={URL + '/assets/images/portrait.jpg'} className='self-portrait' alt='Me' />
+							<img src='https://raw.githubusercontent.com/cbrittingham14/portfolio/master/react-portfolio/public/assets/images/portrait.jpg' className='self-portrait' alt='Me' />
 						</div>
 						<div className='col-sm'>
 								<p>
