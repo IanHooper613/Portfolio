@@ -6,7 +6,10 @@ function Footer (){
       <div className='container-fluid text-center'>
         <div className='row'>
           <div className='col'>
-            <a href='https://github.com/cbrittingham14'>See my github</a>
+            <a href='https://github.com/cbrittingham14'>github</a>
+          </div>
+          <div className='col'>
+            <a href='https://www.linkedin.com/in/charlie-brittingham-9877ba1a9/'>LinkedIn</a>
           </div>
         </div>
       </div>
