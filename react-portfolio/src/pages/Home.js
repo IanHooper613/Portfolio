@@ -1,6 +1,8 @@
 import React from 'react';
+const URL = process.env.PUBLIC_URL;
 
 function Home (){
+
     return(
 			<div className='container-sm'>
 				<div className='row'>
@@ -10,15 +12,14 @@ function Home (){
 				</div>
 				<div className='row'>
 						<div className='col-sm text-center'>
-							<img src='' alt='Me' />
+							<img src={URL + 'assets/images/portrait.jpg'} className='self-portrait' alt='Me' />
 						</div>
 						<div className='col-sm'>
-							<p>Testerooski</p>
 								<p>
-										'I am just a traveler searching for purity.'  That is a quote from the man pictured on this page, Thomas Moore, in the movie the Saint.
-										This is one of Val Kilmer's best roles in my opinion.  Although I suspect this page is intended to be a platform to actually add my projects
-										in the future, I think I need a lot more practice in the 'markup' area.  I should have allowed myself more time to work on this homework- a 
-										mistake I will not make again.  I am not really sure what else I should be writing here.
+								Full stack web developer and electrical engineer knowledgeable about both hardware and 
+								software design and troubleshooting, experienced in problem solving, teamwork, and customer 
+								service. Known for his ability to get along with everyone, his tenacity and creative thinking
+								in solving complex problems, and his leadership abilities.
 								</p>
 						</div>
 						<div className='col-lg-auto'></div>
