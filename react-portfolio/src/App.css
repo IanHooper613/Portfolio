@@ -1,7 +1,10 @@
 .App {
   text-align: center;
 }
-
+.self-portrait {
+  max-width: 360px;
+  max-height: auto;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
