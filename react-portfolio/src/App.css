@@ -5,6 +5,12 @@
   max-width: 360px;
   max-height: auto;
 }
+.page-footer {
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
