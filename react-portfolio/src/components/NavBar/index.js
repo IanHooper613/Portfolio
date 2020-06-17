@@ -17,9 +17,6 @@ function NavBar () {
               <li className='nav-item'>
                   <Link className='nav-link' to={URL + '/portfolio'}>Portfolio</Link>
                 </li>
-              <li className='nav-item'>
-                <Link className='nav-link' to={URL + '/contact'}>Contact</Link>
-              </li>
             </ul>
           </div>
         </nav>
